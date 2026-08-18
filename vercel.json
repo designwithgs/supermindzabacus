@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/index.php", "destination": "/", "permanent": true },
+    { "source": "/about-abacus.php", "destination": "/about-abacus.html", "permanent": true },
+    { "source": "/faq.php", "destination": "/faq.html", "permanent": true },
+    { "source": "/gallery.php", "destination": "/gallery.html", "permanent": true },
+    { "source": "/contact.php", "destination": "/contact.html", "permanent": true },
+
+    { "source": "/bkp_gallery.php", "destination": "/gallery.html", "permanent": true },
+    { "source": "/bkp_contact.php", "destination": "/contact.html", "permanent": true },
+    { "source": "/form.html", "destination": "/contact.html", "permanent": true },
+    { "source": "/send.php", "destination": "/contact.html", "permanent": true },
+    { "source": "/send_form_email.php", "destination": "/contact.html", "permanent": true }
+  ]
+}
